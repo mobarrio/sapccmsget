@@ -7,7 +7,7 @@
  # tar -C /usr/local -xzf go1.12.1.linux-amd64.tar.gz
  # rm go1.12.1.linux-amd64.tar.gz
  # export PATH=$PATH:/usr/local/go/bin
- # export GOBIN="/usr/src/sapccmsget/bin/"
+ # export GOBIN="/usr/bin/"
  # export GOPATH="/usr/src/sapccmsget/"
  # export GOROOT="/usr/local/go"
  # go install
