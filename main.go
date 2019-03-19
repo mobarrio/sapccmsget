@@ -7,7 +7,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/fedorpatlin/sapccmsget/sapccms"
+	"./sapccms"
 )
 
 var flags struct {
