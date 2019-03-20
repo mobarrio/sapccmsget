@@ -1,4 +1,11 @@
-# Compile and Install with GO
+sapccmsget
+=========
+
+Utility to get performance data from SAP CCMS monitoring tree element by full name. Used by zabbix-agent.
+
+
+Compile and Install with GO
+----------------
 ```
  # cd /usr /src
  # git clone https://github.com/mobarrio/sapccmsget.git
@@ -13,11 +20,8 @@
  # go install
 ```
 
-# sapccmsget
-Utility to get performance data from SAP CCMS monitoring tree element by full name. Used by zabbix-agent.
-
-# example: 
-
+Example
+----------------
 Command 
 >`[user@host1 ~]$ zabbix_agentd -c /etc/zabbix/zabbix_agentd.conf -t "sap.ccms.get[SID, 'SID\\host1_SID_00\\R3Services\\Dialog\\ResponseTime']"`
 
